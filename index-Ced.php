@@ -388,13 +388,17 @@ for ($i=1; $i <= $n ; $i++) {
 
 print_r($notes);
 
-$min = $notes[1];
+$min;
 $prenom;
 
 foreach ($notes as $key => $value) {
-    if ($value<$min) {
-       $min = $value;
+    if ($notes[$key]<$notes[$key + 1]) {
+       $min = $notes[$key];
        $prenom=$key;
+    }
+    else {
+        $min = $notes[$key + 1];
+        $prenom=$key;
     }
 } 
 
