@@ -423,4 +423,5 @@ print_r("la position de la meilleur note est: ".$note[$max]);
 echo "afficher le nom";
 echo "afficher le nom";
 echo "IL NE VEUT PAS QU'ON UTILISE LA FONCTION \"MAX\" POUR CET EXO";
+echo "ba c'est n'importe quoi :(";
 ?>
